@@ -1,0 +1,136 @@
+/* 
+https://devcode.la/tutoriales/como-centrar-un-div-con-css/ 
+https://developer.mozilla.org/es/docs/Web/CSS/position 
+https://developer.mozilla.org/es/docs/Web/CSS/position  
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+header {
+    /*background-color: cornflowerblue;*/
+    height: 70px;
+    position: relative;
+}
+header div {
+    /*background-color: brown;*/
+    width: auto;
+    position: absolute;
+    right: 12px;
+    height: 70px;
+    top: 10px;
+}
+header div a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+header div img {
+    position: relative;
+    top: 10px;
+    height: 30px;
+    margin: 0 5px;
+}
+.acceder {
+    background-color: #2b7de9;
+    padding: 9px 23px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+main {
+    width: 600px;
+    margin: 0 auto;
+    height: auto;
+    /*background-color:cadetblue;*/
+}
+.search {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 25px;
+    max-width: 600px;
+    width: 584px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.search input {
+    width: 80%;
+    border: none;
+}
+.lupa {
+    height: 30px;
+    margin: 7px 10px;
+}
+.micro {
+    height: 35px;
+    margin: 4px 12px;
+}
+.logo {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+}
+.botones a {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: #f8f9fa;
+    padding: 9px 23px;
+    border-radius: 4px;
+    margin: 29px 7px;
+}
+footer {
+    background-color: #ebecee;
+    color: #70757a;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+.argentina {
+    display: flex;
+    border-bottom: 1px solid #dadce0;
+    height: 48px;
+}
+.argentina p {
+    margin: auto 25px;
+    display: block;
+}
+.abajo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.abajo div a{
+    text-decoration: none;
+    color: #70757a;
+    
+}
+.left {
+    display: flex;
+    height: 46px;
+}
+.left a{
+    margin: 15px 25px;
+}
+.right {
+    display: flex;
+    height: 46px;
+}
+.right a {
+    margin: 15px 25px;
+}
